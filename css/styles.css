@@ -1,4 +1,16 @@
-.list {
+.button {
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 24px;
+  color: #4d5ae5;
 }
-.title {
+.link {
+  text-decoration: none;
+}
+.logo {
+  font-family: 'Raleway';
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  color: #4d5ae5;
 }
