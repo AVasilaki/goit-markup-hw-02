@@ -3,7 +3,9 @@
   --main-text-color: #434455;
   --background-color: #ffffff;
   --font-femily: 'Roboto';
-  --link-nav-color: #2e2f42;
+  --nav-link-color: #2e2f42;
+  /* колір активних посилань у шапці і кнопки на герої */
+  --nav-link-hover: #404bbf;
 }
 .body {
   color: #434455;
@@ -13,6 +15,7 @@
 .list {
   list-style: none;
 }
+/* шапка посилання */
 .nav-link {
   font-weight: 500;
   font-size: 16px;
@@ -22,11 +25,34 @@
   /* NAVY BLUE */
   color: #2e2f42;
 }
+/* шапка посилання активний стан */
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;
+}
+
 .button {
   font-weight: 500;
   font-size: 26px;
   line-height: 24px;
   color: #4d5ae5;
+}
+/* кнопка замовлень на головній сторінці */
+.order-btn {
+  width: 169px;
+  height: 56px;
+  /* IRIS */
+  background: #4d5ae5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  align-items: center;
+  letter-spacing: 0.04em;
+
+  /* WHITE */
+  color: #ffffff;
 }
 .link {
   text-decoration: none;
@@ -41,6 +67,7 @@
 .logo-studio {
   color: #2e2f42;
 }
+/* пошта телефон */
 .contacts-link {
   font-weight: 400;
   font-size: 16px;
@@ -51,4 +78,9 @@
 
   /* SLATE */
   color: #434455;
+}
+/* пошта телефон активний стан */
+.contacts-link:hover,
+.contacts-link:focus {
+  color: #404bbf;
 }
