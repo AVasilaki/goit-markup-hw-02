@@ -1,5 +1,6 @@
 /* змінні */
 :root {
+  --filter-btn: #f4f4fd;
   --btn-color: #4d5ae5;
   /* головний колір тексту заданий у body */
   --main-text-color: #434455;
@@ -59,7 +60,7 @@
   border-radius: 4px;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   align-items: center;
   letter-spacing: 0.04em;
 
@@ -70,7 +71,28 @@
 .order-btn:focus {
   background-color: #404bbf;
 }
+.filtr-btn {
+  font-family: 'Roboto' sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
 
+  /* identical to box height, or 150% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  /* IRIS */
+  color: var(--btn-color);
+  background-color: var(--filter-btn);
+}
+.filtr-btn:hover,
+.filtr-btn:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
 /* логотип */
 .logo {
   font-family: 'Raleway' sans-serif;
