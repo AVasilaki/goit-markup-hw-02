@@ -6,6 +6,7 @@
   /* головний колір фону заданий у body */
   --background-color: #ffffff;
   --font-femily: 'Roboto';
+  /* підзаголовки на головній , навігація в шапці */
   --nav-link-color: #2e2f42;
   /* колір активних посилань у шапці і кнопки на герої */
   --nav-link-hover: #404bbf;
@@ -72,6 +73,9 @@
 .logo-studio {
   color: #2e2f42;
 }
+.studio-footer {
+  color: #f4f4fd;
+}
 /* пошта телефон */
 .contacts-link {
   font-weight: 400;
@@ -94,6 +98,9 @@
   color: #404bbf;
 }
 /* заголовки */
+.title {
+  color: #2e2f42;
+}
 .title.main-title {
   font-weight: 700;
   font-size: 56px;
@@ -112,9 +119,38 @@
   color: #2e2f42;
   letter-spacing: 0.02em;
 }
+.subtitles {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  /* NAVY BLUE */
+  color: #2e2f42;
+}
+.teamcard-titles {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+
+  /* NAVY BLUE */
+  color: #2e2f42;
+}
 /* параграфи */
 .text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+.footer {
+  /* NAVY BLUE */
+  background: #2e2f42;
+}
+.footer-text {
+  /* CLOUD */
+  color: #f4f4fd;
+}
+.card-text {
+  color: #434455;
 }
