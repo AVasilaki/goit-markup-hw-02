@@ -15,7 +15,11 @@
 .body {
   color: #434455;
   background-color: #ffffff;
-  font-family: 'Roboto';
+  font-family: 'Roboto' sans-serif;
+}
+/* герой */
+.hero {
+  background-color: #2e2f42;
 }
 /* списки */
 .list {
@@ -46,6 +50,7 @@
 }
 /* кнопка замовлень на головній сторінці */
 .order-btn {
+  font-family: 'Roboto' sans-serif;
   width: 169px;
   height: 56px;
   /* IRIS */
@@ -61,13 +66,19 @@
   /* WHITE */
   color: #ffffff;
 }
+.order-btn:hover,
+.order-btn:focus {
+  background-color: #404bbf;
+}
 
 /* логотип */
 .logo {
-  font-family: 'Raleway';
+  font-family: 'Raleway' sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: #4d5ae5;
 }
 .logo-studio {
@@ -77,10 +88,13 @@
   color: #f4f4fd;
 }
 /* пошта телефон */
+.contacts {
+  font-style: normal;
+}
 .contacts-link {
   font-weight: 400;
   font-size: 16px;
-  font-style: normal;
+
   line-height: 1.5;
 
   letter-spacing: 0.02em;
@@ -105,7 +119,7 @@
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-
+  text-align: center;
   letter-spacing: 0.02em;
 
   /* WHITE */
