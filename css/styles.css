@@ -1,19 +1,28 @@
+/* змінні */
 :root {
   --btn-color: #4d5ae5;
+  /* головний колір тексту заданий у body */
   --main-text-color: #434455;
+  /* головний колір фону заданий у body */
   --background-color: #ffffff;
   --font-femily: 'Roboto';
   --nav-link-color: #2e2f42;
   /* колір активних посилань у шапці і кнопки на герої */
   --nav-link-hover: #404bbf;
 }
+/* глобальні для баді */
 .body {
   color: #434455;
   background-color: #ffffff;
   font-family: 'Roboto';
 }
+/* списки */
 .list {
   list-style: none;
+}
+/* посилання */
+.link {
+  text-decoration: none;
 }
 /* шапка посилання */
 .nav-link {
@@ -30,12 +39,9 @@
 .nav-link:focus {
   color: #404bbf;
 }
-
+/* кнопки */
 .button {
-  font-weight: 500;
-  font-size: 26px;
-  line-height: 24px;
-  color: #4d5ae5;
+  cursor: pointer;
 }
 /* кнопка замовлень на головній сторінці */
 .order-btn {
@@ -54,9 +60,8 @@
   /* WHITE */
   color: #ffffff;
 }
-.link {
-  text-decoration: none;
-}
+
+/* логотип */
 .logo {
   font-family: 'Raleway';
   font-weight: 800;
@@ -83,4 +88,33 @@
 .contacts-link:hover,
 .contacts-link:focus {
   color: #404bbf;
+}
+/* виділяє поточну сторінку в меню навігації */
+.link.nav-link.carrent {
+  color: #404bbf;
+}
+/* заголовки */
+.title.main-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+
+  letter-spacing: 0.02em;
+
+  /* WHITE */
+  color: #ffffff;
+  background-color: #2e2f42;
+}
+.title.studio-titles {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
+  letter-spacing: 0.02em;
+}
+/* параграфи */
+.text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
