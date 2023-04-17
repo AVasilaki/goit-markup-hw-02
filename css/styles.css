@@ -16,7 +16,7 @@
 .body {
   color: #434455;
   background-color: #ffffff;
-  font-family: 'Roboto' sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 /* герой */
 .hero {
@@ -95,7 +95,7 @@
 }
 /* логотип */
 .logo {
-  font-family: 'Raleway' sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
