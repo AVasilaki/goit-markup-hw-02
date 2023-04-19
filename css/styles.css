@@ -13,7 +13,7 @@
   --nav-link-hover: #404bbf;
 }
 /* глобальні для баді */
-.body {
+body {
   color: #434455;
   background-color: #ffffff;
   font-family: 'Roboto', sans-serif;
@@ -77,14 +77,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-
-  /* identical to box height, or 150% */
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.04em;
-
-  /* IRIS */
   color: var(--btn-color);
   background-color: var(--filter-btn);
 }
